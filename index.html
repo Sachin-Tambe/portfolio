@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/ef2297122c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="coantainer">
+            <nav>
+                <img src="logo (2).png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Profilo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist</p>
+                <h1>Hi , I'm <span>Sachin</span><br>Tambe From India</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="coantainer">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! My name is Sachin Tambe, and I am an enthusiastic beginner in the field of data science. With a strong foundation in mathematics and statistics, I am passionate about leveraging data to uncover insights and drive decision-making. <br> I have embarked on this exciting journey to master the art of data analysis, machine learning, and data visualization. My goal is to become proficient in using tools such as Python, R, SQL, and various data science libraries to solve real-world problems.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Programming Languages:</span><br>Proficiency in Python, R, or SQL for data manipulation, analysis, and modeling.</li>
+                        <li><span>Statistical Analysis:</span><br>Strong understanding of statistical methods and techniques for data analysis and inference.</li>
+                        <li><span>Machine Learning Algorithms:</span><br>Knowledge of a wide range of machine learning algorithms such as regression, classification, clustering, and deep learning.</li>
+                        <li><span>Data Visualization:</span><br>Ability to effectively visualize data using tools like Matplotlib, Seaborn, or ggplot2 to communicate insights.</li>
+                        <li><span>Data Cleaning and Preprocessing:</span><br>Skills in cleaning, preprocessing, and transforming raw data into a usable format for analysis.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Experience</span><br>I am Fresher </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachelor of Science in Information Technology:</span><br>Somaiya VidayVihar University</li>
+                        <li><span>Professional Diploma or Training in Data Science:</span><br>NetTech India</li>
+                        <li><span>Foundation of Data Engineering:</span><br>Coursera IBM Certified</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------sevises-------------------->
+<div id="services">
+    <div class="coantainer">
+        <h1 class="sub-title ser">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Development:</h2>
+                <p>Expert solutions for data analysis, web development, and automation using Python.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-snowflake"></i>
+                <h2>Machine Learning with Python:</h2>
+                <p>Build, deploy, and optimize machine learning models with Python's extensive libraries.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Exploration and Cleaning:</h2>
+                <p>Exploring raw data, identifying patterns, and cleaning messy datasets. They use tools like Python, R, or SQL to preprocess and transform data into a usable fo</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------portfolio------------------------------ -->
+<div id="portfolio">
+    <div class="coantainer">
+        <h1 class="sub-title ser">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work3.png"> 
+                <div class="layer">
+                    <h3>BankWiki-Building-an-ETL-Pipeline-for-Top-Global-Banks</h3>
+                    <p>The project involves creating an Extract, Transform, Load (ETL) pipeline to aggregate, cleanse, and integrate data from various global banks. This pipeline ensures consistent, accurate, and timely data processing for analytics and reporting. It addresses data extraction from multiple sources, transformation into a standardized format, and loading into a central database.</p>
+                    <a href="https://github.com/Sachin-Tambe/BankWiki-Building-an-ETL-Pipeline-for-Top-Global-Banks"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.png"> 
+                <div class="layer">
+                    <h3>Hotel Menu Management System</h3>
+                    <p>The Python-based GUI application uses Tkinter to present various meal menus from a restaurant, allowing customers to place orders. It calculates the total bill, saves sales records to an Excel file, and generates a PDF bill for the customer. The system reads menu details from text files and supports managing different meal types, such as breakfast, lunch, and dinner.</p>
+                    <a href="https://github.com/Sachin-Tambe/sachin-python"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work1.jpg"> 
+                <div class="layer">
+                    <h3>Amazify: Your Ultimate E-Commerce Experience</h3>
+                    <p>Amazon clone website involves replicating the core features and functionalities</p>
+                    <a href="https://sachin-tambe.github.io/ART-OF-CODING/#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ----------------------coantact--------------------- -->
+<!-- ----------------------contact--------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sachin.tabaji.tambe@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9076398319</p>
+                <div class="social_icon">
+                    <a href="https://www.instagram.com/sachin.tambe_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/SachinTambe_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/Sachin-Tambe" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sachintambe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/SachinTambe/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.kaggle.com/sachintabajitambe" target="_blank"><i class="fa-brands fa-kaggle"></i></a>
+                </div>
+                <a href="FirstName_LastName_Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Gmail" placeholder="Your Gmail" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sachin. Made By <i class="fa-solid fa-crown"></i> Sachin Tambe <i class="fa-solid fa-crown"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwPVCGmZ9rgt-orRUQEZNXoCgVaGvC0dG6Ts2UrCgvvQm8AeJunNz_ZkFcGQCajY4si/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
